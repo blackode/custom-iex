@@ -1,6 +1,6 @@
 #! /usr/bin/sh
 
-if [! -d "~/.iex" ]; 
+if [! -d "~/.iex" ]; then
   mkdir ~/.iex
   echo "Directory ~/.iex created"
 fi
