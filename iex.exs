@@ -16,9 +16,6 @@ green_ansi = IO.ANSI.green()
 reset_ansi = IO.ANSI.reset()
 white_background = IO.ANSI.white_background()
 
-# Greeting text before the shell starts
-elixir_icon = ""
-
 # custom iex files dir
 
 # improrting files

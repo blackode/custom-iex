@@ -1,3 +1,5 @@
+elixir_icon = ""
+
 IEx.configure(
   # This will display when we enter multi lines of code. I used 4 empty spaces.
   # If you need you can update it with the unicode symbols you like 
