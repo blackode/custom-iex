@@ -1,9 +1,8 @@
 #! /usr/bin/sh
 
-if mkdir ~/.iex; then
-  echo "Created a ~/.iex dir"
-else
-  [! -d "~/.iex" ] && echo "Unable to create a directory ~/.iex"
+if [! -d "~/.iex" ]; 
+  mkdir ~/.iex
+  echo "Directory ~/.iex created"
 fi
 
 if cp -R ./iex ~/.iex/; then
