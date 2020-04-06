@@ -1,5 +1,6 @@
 # custom-iex
-The custom iex configuration for Elixir Developers.
+The custom iex configuration for Elixir Developers. 
+This is a minimal configuration. 
 
 
 ## Installation
@@ -11,6 +12,7 @@ The custom iex configuration for Elixir Developers.
  ./install
 ```
 
+## Preview of Prompt
 ![screenshot](screenshot.png)
 
 Happy Coding and Keep smiling :)
