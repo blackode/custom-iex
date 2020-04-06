@@ -1,11 +1,11 @@
 #! /usr/bin/sh
 
-if [ ! -d "~/.iex" ]; then
+if [ -d "~/.iex" ]; then
   mkdir ~/.iex
   echo "Directory ~/.iex created"
 fi
 
-if cp -R ./iex ~/.iex/; then
+if cp -R ./iex/* ~/.iex/; then
   echo "Files copied to ~/.iex dir \n"
 else
   echo "Error in copying file :("
