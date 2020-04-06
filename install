@@ -1,8 +1,9 @@
 #! /usr/bin/sh
 
 if [ -d "~/.iex" ]; then
-  mkdir ~/.iex
-  echo "Directory ~/.iex created"
+  echo "Directory Requirement done"
+else
+  mkdir ~/.iex && echo "Directory ~/.iex created"
 fi
 
 if cp -R ./iex/* ~/.iex/; then
