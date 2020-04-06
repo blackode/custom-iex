@@ -1,0 +1,25 @@
+#!/usr/bin/sh
+
+if mkdir ~/.iex; then
+  echo "Created a ~/.iex dir"
+else
+  [! -d "~/.iex" ] && echo "Unable to create a directory ~/.iex"
+fi
+
+if cp -R ./iex ~/.iex; then
+  echo "Files copied to ~/.iex dir \n"
+else
+  echo "Files 
+fi
+
+if cp iex.exs ~/.iex.exs; then
+  echo "Created .iex.exs file inside home"
+else
+  [! -f "~/.iex.exs" ] && echo "Something bad happened :("
+fi
+
+echo "Installing Process Finished :)"
+echo "Github: https://github.com/blackode/custom-iex"
+echo "Contact: mrblackode@gmail.com"
+echo "Thank You :)"
+
