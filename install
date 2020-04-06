@@ -1,6 +1,6 @@
 #! /usr/bin/sh
 
-if ![-d "~/.iex" ]; then
+if [ ! -d "~/.iex" ]; then
   mkdir ~/.iex
   echo "Directory ~/.iex created"
 fi
@@ -14,7 +14,7 @@ fi
 if cp iex.exs ~/.iex.exs; then
   echo "Created .iex.exs file inside home"
 else
-  [! -f "~/.iex.exs" ] && echo "Something bad happened :("
+  [ ! -f "~/.iex.exs" ] && echo "Something bad happened :("
 fi
 
 echo "Installing Process Finished :)"
